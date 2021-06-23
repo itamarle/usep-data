@@ -20,7 +20,7 @@
                <msContents>
                   <textLang mainLang="lat-Grek" otherLangs=""/>
                   <msItem class="#funerary.epitaph">
-                     <p>Latin epitaph transliterated into Greek letters for Iulia Dioscorus</p>
+                     <p>epitaph of Iulia Dioscorus</p>
                   </msItem>
                </msContents>
                            
@@ -28,7 +28,7 @@
                   <objectDesc ana="#slab">
                      <supportDesc ana="#stone.marble">
                         <support>
-                           <p>Gray-green, fine-grained marble slab</p>
+                           <p>gray-green, fine-grained marble slab</p>
                            <dimensions type="surface" unit="cm">
                               <height>40.5</height>
                               <width>59.5</width>
@@ -36,7 +36,7 @@
                            </dimensions>
                         </support>
                         <condition ana="#complete.broken"><!--Add ana attribute with controlled value for condition-->
-                           <p>Three fragments reconstitued into slab with no loss of text</p>
+                           <p>three fragments reconstitued into slab with no loss of text</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -59,7 +59,7 @@
                      <note/>
                   </summary>
                   <origin>
-                     <date evidence="unspecified" notBefore="0001" notAfter="0100">First century CE</date>
+                     <date evidence="unspecified" notBefore="0100" notAfter="0200">second century CE</date>
                      <placeName ref="europe.italy.puteoli">Italy, Pozzuoli</placeName>
                   </origin>
                   <!--Add provenance element(s) for locations at later dates - same content as origin--></history>
@@ -104,7 +104,7 @@
          <change when="2015-06-25" who="Scott J. DiGiulio">Added description of text, updated location, deleted duplicate file under G.1110.</change>
          <change when="2015-08-24" who="Scott J. DiGiulio">Updated objectDesc and handDesc metadata, added images, proofed transcription based upon re-edition of Samantha Lash</change>
                <change when="2021-02-23" who="Elli Mylonas">Change impressed.inscribed.carved to inscribed</change>
-</revisionDesc>
+<change when="2021-05-27" who="Sophia Papandonatou">corrected summary descriptions to English and lower case</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface>
@@ -120,7 +120,7 @@
         <div type="edition">
                 <!-- The marked up transcription goes here, surrounded by <ab> </ab> elements -->
                 <ab>
-                   <lb n="1"/><milestone rend="paragraphos" unit="undefined"/><persName><name type="gentilicium" key="Aurelius">Ἀορήλι<supplied reason="omitted">ο</supplied>ς</name> <name type="cognomen" key="Hospitianus">Ὀσπιτιανός</name></persName>
+                   <lb n="1"/><persName><name type="gentilicium" key="Aurelius">Ἀορήλι<supplied reason="omitted">ο</supplied>ς</name> <name type="cognomen" key="Hospitianus">Ὀσπιτιανός</name></persName>
                    <lb n="2"/><persName><name type="gentilicium" key="Iulius">Ἰόλιος</name> <name type="cognomen" key="Serenus">Σερῆνος</name></persName>
                    <lb n="3"/><persName><name type="gentilicium" key="Iulia">Ἰολίε</name> <name type="cognomen" key="Dioscoris">Ζοσκοροῦτι</name></persName>
                     <lb n="4"/>κουε βειξιτ ἀννις
@@ -131,13 +131,15 @@
         
         
                 <div type="translation">
-                    <p/>
+                   <p>Aurelius Hospitianus (and) Iulius Serenus set up (this monument) for Iulia Dioscorus (or Dioscoris), well deserving, who lived eighteen years (and) six days. <p/>
                 </div>
             
         
         
                 <div type="commentary">
-            <p>The inscription is in the Latin language, transcribed into the Greek alphabet.</p>
+            <p>The inscription is in the Latin language, transcribed into the Greek alphabet. In Latin: "Aureli<u>s Hospitianus, Iulius Serenus Iuliae Dioscoroti, qui vixit annis XVIII, dies VI, bene{n} merenti posueru(nt)."</p> 
+             <p>Line 1: the first line is offset to the left by one letter, in the usual form of indicating a paragraph.</p>
+               <p>Line 3: for the <i>cognomina</i> "Dioscorus" (of a woman) and "Dioscoris", see H. Solin, <i>Griechischen Personennamen in Rom</i> 1.512.</p>
          </div>
             
         
